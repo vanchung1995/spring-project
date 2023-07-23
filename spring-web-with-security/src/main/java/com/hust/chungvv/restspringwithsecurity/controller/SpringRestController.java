@@ -42,16 +42,16 @@ public class SpringRestController {
     @GetMapping("/with-params")
     public Map<String, Object> getListParams(@ModelAttribute SimpleRequest simpleRequest) {
         Map<String, Object> map = new HashMap<>();
-        map.put("name", simpleRequest.getName());
-        map.put("email", simpleRequest.getEmail());
+        map.put("username", simpleRequest.getUsername());
+        map.put("password", simpleRequest.getPassword());
         return map;
     }
 
     @PostMapping("/simple-post")
     public Map<String, Object> postSmth(@RequestBody SimpleRequest simpleRequest) {
         Map<String, Object> map = new HashMap<>();
-        map.put("name", simpleRequest.getName());
-        map.put("email", simpleRequest.getEmail());
+        map.put("username", simpleRequest.getUsername());
+        map.put("password", simpleRequest.getPassword());
         return map;
     }
 
