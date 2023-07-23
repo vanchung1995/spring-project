@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication(scanBasePackages = {"com.hust.chungvv.restspringwithsecurity"})
 @EnableJpaRepositories(basePackages = {"com.hust.chungvv.restspringwithsecurity.repository"})
 @EntityScan("com.hust.chungvv.restspringwithsecurity.entity")
-@EnableConfigurationProperties
 public class RestspringwithsecurityApplication {
 
 	public static void main(String[] args) {
