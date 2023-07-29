@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="RestspringwithsecurityApplication" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="MAIN_CLASS_NAME" value="com.hust.chungvv.restspringwithsecurity.main.RestspringwithsecurityApplication" />
-    <module name="restspringwithsecurity" />
+    <module name="spring-boot-with-security" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.hust.chungvv.restspringwithsecurity.repository.*" />
